@@ -1,3 +1,9 @@
 git add .
-git commit -m "update"
+
+if [ "$1" = "" ]
+then
+    git commit -m "Update"
+else
+    git commit -m "$1"
+fi
 git push origin main
