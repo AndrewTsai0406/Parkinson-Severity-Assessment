@@ -1,0 +1,24 @@
+import joblib
+
+from flask import Flask
+from flask import request
+from flask import jsonify
+
+targets = ["updrs_1", "updrs_2", "updrs_3", "updrs_4"]
+models = [joblib.load(f"./models/models_{u}.pkl") for u in targets]
+
+app = Flask(__name__)
+
+@app.route('/predict', methods=['POST'])
+def predict():
+    data = request.get_json()
+    results = {}
+    print(data)
+    for i, target in enumerate(targets):
+        model = models[i]
+        prediction = model.predict([[data['data']]])
+        results[target] = float(prediction)
+    return jsonify(results)
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=69, debug=True)
