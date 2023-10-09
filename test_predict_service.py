@@ -1,6 +1,6 @@
 import requests
 
-url = 'http://localhost:6969/predict'
+url = 'http://0.0.0.0:6969/predict'
 
 data = {'data':1}
 
