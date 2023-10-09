@@ -11,6 +11,7 @@ RUN pip install -r requirements.txt
 WORKDIR /app/models
 COPY ["models/.", "./"]
 
+WORKDIR /app
 # Make port 6969 available to the world outside this container
 EXPOSE 6969
 
