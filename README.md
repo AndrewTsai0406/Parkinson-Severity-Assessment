@@ -1,7 +1,7 @@
 Project Parkinson
 ==============================
 
-Deploy code from Kaggle competition for data-zoomcamp ML engineering course
+Deploy my codes from Kaggle competition for data-zoomcamp ML engineering course
 
 
 
