@@ -4,6 +4,11 @@ Project Parkinson
 Deploy my codes from Kaggle competition for data-zoomcamp ML engineering course
 
 
+setup
+
+data source: https://www.kaggle.com/competitions/amp-parkinsons-disease-progression-prediction/data
+=> ./data/raw/
+
 
 ## Project
 
