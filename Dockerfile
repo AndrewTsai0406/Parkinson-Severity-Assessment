@@ -13,7 +13,7 @@ WORKDIR /app
 RUN pip install -r requirements.txt
 
 # Run app.py when the container launches
-CMD ["python", "/app/predict.py"]
+# CMD ["python", "/app/predict.py"]
 
 # Make port 6969 available to the world outside this container
 EXPOSE 6969
