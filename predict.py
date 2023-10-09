@@ -11,12 +11,12 @@ app = Flask(__name__)
 
 @app.route('/predict', methods=['POST'])
 def predict():
-    data = request.get_json()
+    data = request.get_json()['data'].split(',')
+
     results = {}
-    print(data)
     for i, target in enumerate(targets):
         model = models[i]
-        prediction = model.predict([[data['data']]])
+        prediction = model.predict([[data[i]]])
         results[target] = float(prediction)
     return jsonify(results)
 
