@@ -1,11 +1,8 @@
 FROM python:3.10.13-bookworm
 
-
-
 # Copy the current directory contents into the container at /app/models
 WORKDIR /app/models
 COPY ["models/.", "./"]
-
 
 # Set the working directory to /app
 WORKDIR /app
