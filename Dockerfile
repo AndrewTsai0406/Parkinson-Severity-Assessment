@@ -15,7 +15,7 @@ RUN pip install -r requirements.txt
 EXPOSE 6969
 
 # Run gunicorn server when the container launches (for production)
-ENTRYPOINT ["gunicorn", "--bind=0.0.0.0:6969", "predict:app"]
+ENTRYPOINT ["gunicorn", "--bind=0.0.0.0:80", "predict:app"]
 
 # docker build -t parkinson-predict .
 # docker run -it --rm -p 6969:6969 parkinson-predict
