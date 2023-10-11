@@ -18,4 +18,4 @@ EXPOSE 6969
 ENTRYPOINT ["gunicorn", "--bind=0.0.0.0:80", "predict:app"]
 
 # docker build -t parkinson-predict .
-# docker run -it --rm -p 6969:6969 parkinson-predict
+# docker run -it --rm -p 6969:80 parkinson-predict

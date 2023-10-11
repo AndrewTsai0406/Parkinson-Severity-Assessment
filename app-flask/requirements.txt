@@ -1,0 +1,8 @@
+arrow
+cookiecutter
+Flask
+gunicorn
+ipykernel
+requests
+scikit-learn
+tqdm
