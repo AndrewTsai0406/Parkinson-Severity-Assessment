@@ -39,8 +39,14 @@ data source: https://www.kaggle.com/competitions/amp-parkinsons-disease-progress
     groupkfold-supplement-median-model-competition.ipynb
     ```
 * Export the notebook into a script
+
+  - train.py + predict.py
 * Put your model into a web service and deploy it locally with Docker
+
+  - Flask + Gunicorn
 * Bonus points for deploying the service to the cloud
+
+  - Lambda + API Gateway
 
 ## Deliverables
 

@@ -4,7 +4,6 @@ targets = ["updrs_1", "updrs_2", "updrs_3", "updrs_4"]
 models = [joblib.load(f"./models/models_{u}.pkl") for u in targets]
 
 def predict(data):
-    data = data.split(',')
 
     results = {}
     for i, target in enumerate(targets):
