@@ -8,6 +8,9 @@ I chose this dataset because I'd been tackling a problem from Kaggle competition
 
 [Accelerating Medicines Partnership Parkinson's Disease (AMP PD)](https://www.kaggle.com/competitions/amp-parkinsons-disease-progression-prediction/overview) is a Kaggle competition that aims to find a cure for Parkinson's disease. Parkinson's disease is a degenerative brain disorder that affects movement and other functions. The competition involves using data science to analyze protein and peptide levels in Parkinson's patients and predict their progression using [MDS-UPDR scores](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5898442/#:~:text=Each%20parkinsonian%20sign%20or%20symptom,worst%20possible%20disability%20from%20PD.). The goal is to identify biomarkers and develop new treatments for the disease.
 
+
+On top of it, I aim to deploy the trained model to the cloud and make it available for use via an API. The API will take in ***a list of values of patient's visit months*** and return the predicted MDS-UPDR scores.
+
 ## Project flowchart
 ![Alt text](./reports/image.png)
 
