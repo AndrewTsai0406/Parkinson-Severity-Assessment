@@ -12,7 +12,7 @@ I chose this dataset because I'd been tackling a problem from Kaggle competition
 On top of it, I aim to deploy the trained model to the cloud and make it available for use via an API. The API will take in ***a list of values of patient's visit months*** and return the predicted MDS-UPDR scores.
 
 ## Project flowchart
-![Alt text](./reports/image.png)
+![Alt text](./reports/flowchart.png)
 
 ## Navigating the project repository 
 
