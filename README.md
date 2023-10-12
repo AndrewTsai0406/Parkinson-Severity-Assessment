@@ -22,6 +22,7 @@ The goal of this competition is to predict MDS-UPDR scores, which measure progre
 
 Your work could help provide important breakthrough information about which molecules change as Parkinson’s disease progresses.
 
+![Alt text](image.png)
 ## Navigating the project repository 
 
 Where to find the files for evaluation:
@@ -153,57 +154,6 @@ data = {'data': [1,2,3,4]}
 print(requests.post(url, json=data).json())
 ```
 
-## Evaluation Criteria
-
-The project will be evaluated using these criteria:
-
-* Problem description
-* EDA
-* Model training
-* Exporting notebook to script
-* Model deployment
-* Reproducibility
-* Dependency and environment management
-* Containerization
-* Cloud deployment
-
-[Criteria](https://docs.google.com/spreadsheets/d/e/2PACX-1vQCwqAtkjl07MTW-SxWUK9GUvMQ3Pv_fF8UadcuIYLgHa0PlNu9BRWtfLgivI8xSCncQs82HDwGXSm3/pubhtml)
-
-
-## Cheating and plagiarism
-
-Plagiarism in any form is not allowed. Examples of plagiarism
-
-* Taking somebody's else notebooks and projects (in full or partly) and using it for the capstone project
-* Re-using your own projects (in full or partly) from other courses and bootcamps
-* Re-using your midterm project from ML Zoomcamp in capstone
-* Re-using your ML Zoomcamp from previous iterations of the course
-
-Violating any of this will result in 0 points for this project.
-
-## FAQ
-
-
-**Q**: Can I use poetry / virtual env for managing dependencies; catboost for boosting and FastAPI for creating a web service?
-
-> Yes, you can use any library you want. But please make sure to document everything and clearly explain what you use.
-> Think of your peers who will review it - they don't necessarily know what these libraries are. 
-> Please give them enough context to understand your project.
-
-**Q**: Can multiple people use the same dataset?
-
-> Yes, there's no way to control it or enforce. So it's totally okay if you and somebody else use the same dataset. 
-
-**Q**: For peer reviewing, do I have to run the code and make sure it works?
-
-> It's recommended that you do that, but you don't _have_ to do it.
-
-**Q**: What if I see an error? What if I run something and it doesn't work?
-
-> If you spot an error somewhere and you see that the code clearly doesn't work, then you
-> give 0 points to the respective criterium. E.g. if you see an error in Dockerfile,
-> then you give 0 points to the "containerization" dimension.
-
 Project Organization
 ------------
 
@@ -254,5 +204,3 @@ Project Organization
 
 
 --------
-
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
