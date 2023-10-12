@@ -55,7 +55,7 @@ Download ZIP
 
 ### Start a virtual environment 
 
-I advise using a virtual environment for running this project, below are instructions for doing so using [Conda](https://www.anaconda.com/) which helps one manage multiple envirnoments. Additionally if you would like to run the analysis notebooks or the app in Docker you will need to have [Docker](https://docs.docker.com/get-docker/) installed.
+I advise using a virtual environment for running this project, below are instructions for doing so using [Conda](https://www.anaconda.com/) which helps one manage multiple envirnoments. Additionally if you would like to run the app in Docker you will need to have [Docker](https://docs.docker.com/get-docker/) installed.
 
 
 ```sh
