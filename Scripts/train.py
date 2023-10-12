@@ -76,6 +76,8 @@ class train:
 
             print(winning_model.best_score_)
             joblib.dump(winning_model.best_estimator_, f'../models/models_{target}.pkl')
+            joblib.dump(winning_model.best_estimator_, f'../app-flask/models/models_{target}.pkl')
+            joblib.dump(winning_model.best_estimator_, f'../app-lambda-function/models/models_{target}.pkl')
 
 
 if __name__ == "__main__":
