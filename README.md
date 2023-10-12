@@ -2,7 +2,7 @@
 
 This repository was created as part of the [Data-zoomcamp ML engineering course](https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/master) by Andrew Tsai. This project has been submitted as the midterm project for the course.
 
-I chose this dataset because I'd been tackling a problem from Kaggle competition a while back, and I wanted to see if I could apply what I've learned in the course to a real-world scenario and deploy models to the cloud.
+I chose this dataset because I'd been tackling a problem from Kaggle competition a while back, and I wanted to see if I could apply what I'v learned in the course to a real-world scenario and deploy models to the cloud.
 
 ## Parkinson Severity Assessment- the problem scope
 
@@ -89,7 +89,7 @@ Download this data (including the three CSVs) and put it in to a `./data` direct
 
 ------------
 
-### Training & saving the models🏋️‍♀️
+### Training & saving the models
 
 To run the training script and save the mdoels, use the one script inside `./scripts`: `train.py` with the command:
 
