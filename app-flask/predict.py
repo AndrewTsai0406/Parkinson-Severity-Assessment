@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 @app.route('/predict', methods=['POST'])
 def predict():
-    data = request.get_json()['data'].split(',')
+    data = request.get_json()['data']
 
     results = {}
     for i, target in enumerate(targets):

@@ -31,8 +31,8 @@ class train:
 
     def train(self):
 
-        sup = pd.read_csv('./data/raw/amp-parkinsons-disease-progression-prediction/supplemental_clinical_data.csv')
-        train_set = pd.read_csv("./data/raw/amp-parkinsons-disease-progression-prediction/train_clinical_data.csv")
+        sup = pd.read_csv('../data/raw/amp-parkinsons-disease-progression-prediction/supplemental_clinical_data.csv')
+        train_set = pd.read_csv("../data/raw/amp-parkinsons-disease-progression-prediction/train_clinical_data.csv")
         train_set = pd.concat([train_set,sup],ignore_index=True).drop(['upd23b_clinical_state_on_medication'],axis=1)
         targets = ["updrs_1", "updrs_2", "updrs_3", "updrs_4"]
 
@@ -74,7 +74,7 @@ class train:
             print(f"Pick best performing model for {target}:{str(winning_model.estimator).split('(')[0]}",'\n','-'*50)
 
             print(winning_model.best_score_)
-            joblib.dump(winning_model.best_estimator_, f'./models/models_{target}.pkl')
+            joblib.dump(winning_model.best_estimator_, f'../models/models_{target}.pkl')
 
 
 if __name__ == "__main__":
