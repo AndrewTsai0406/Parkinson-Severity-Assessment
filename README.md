@@ -22,7 +22,7 @@ The goal of this competition is to predict MDS-UPDR scores, which measure progre
 
 Your work could help provide important breakthrough information about which molecules change as Parkinson’s disease progresses.
 
-![Alt text](image-1.png)
+![Alt text](image.png)
 ## Navigating the project repository 
 
 Where to find the files for evaluation:
