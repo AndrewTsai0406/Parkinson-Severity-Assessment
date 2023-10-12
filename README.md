@@ -13,8 +13,6 @@ On top of it, I aim to deploy the trained model to the cloud and make it availab
 
 ## Project flowchart
 ![Alt text](./reports/flowchart.png)
-![Alt text](image.png)
-
 ## Navigating the project repository 📂
 
 Where to find the files for evaluation:
