@@ -50,6 +50,7 @@ class train:
 
             # Train data
             X = temp['visit_month'].values.reshape(-1,1)
+            
             y = temp[target] 
 
             enc = OrdinalEncoder()
