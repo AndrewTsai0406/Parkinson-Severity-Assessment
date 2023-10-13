@@ -107,8 +107,7 @@ The final models, which corresponds to each [MDS-UPDR scores](https://www.ncbi.n
 To build and run the lambda server I use the following docker commands.
 
 ```sh
-cd ./app-lambda-function
-docker build -t project-parkinson .
+docker build -t project-parkinson ./app-lambda-function
 docker run -p 8080:8080 project-parkinson
 ```
 
@@ -125,8 +124,7 @@ print(requests.post(url, json=data).json())
 To build and run the Gunicorn server I use the following docker commands.
 
 ```sh
-cd ./app-flask
-docker build -t project-parkinson .
+docker build -t project-parkinson ./app-flask
 docker run -p 6969:80 project-parkinson
 ```
 
