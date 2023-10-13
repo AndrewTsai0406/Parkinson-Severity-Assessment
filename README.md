@@ -101,6 +101,7 @@ The final models, which corresponds to each [MDS-UPDR scores](https://www.ncbi.n
 
 ### Running the app locally for prediction
 
+Please note that I ran the app locally on a macos. The following codes are expected to work **only** on macos machines.
 
 #### Run the lambda server
 
