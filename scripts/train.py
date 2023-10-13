@@ -31,8 +31,8 @@ class train:
 
     def train(self):
 
-        sup = pd.read_csv('../data/raw/amp-parkinsons-disease-progression-prediction/supplemental_clinical_data.csv')
-        train_set = pd.read_csv("../data/raw/amp-parkinsons-disease-progression-prediction/train_clinical_data.csv")
+        sup = pd.read_csv('../data/raw/supplemental_clinical_data.csv')
+        train_set = pd.read_csv("../data/raw/train_clinical_data.csv")
         train_set = pd.concat([train_set,sup],ignore_index=True).drop(['upd23b_clinical_state_on_medication'],axis=1)
         targets = ["updrs_1", "updrs_2", "updrs_3", "updrs_4"]
 
