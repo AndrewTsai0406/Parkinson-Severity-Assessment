@@ -1,12 +1,8 @@
-arrow
-cookiecutter
 Flask
 gunicorn
 ipykernel
-lightgbm
 pandas
 requests
 scikit-learn
 seaborn
 tqdm
-xgboost
