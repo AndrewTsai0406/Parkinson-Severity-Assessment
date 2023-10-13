@@ -93,7 +93,7 @@ Download this data (including the three CSVs) and put it in to a `./data` direct
 To run the training script and save the mdoels, use the one script inside `./scripts`: `train.py` with the command:
 
 ```sh
-python train.py
+python ./scripts/train.py
 ```
 
 The final models, which corresponds to each [MDS-UPDR scores](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5898442/#:~:text=Each%20parkinsonian%20sign%20or%20symptom,worst%20possible%20disability%20from%20PD.), will be saved in the `.models` directory.
