@@ -2,7 +2,7 @@
 
 This repository was created as part of the [Data-zoomcamp ML engineering course](https://github.com/DataTalksClub/machine-learning-zoomcamp/tree/master) by Andrew Tsai. This project has been submitted as the midterm project for the course.
 
-I chose this dataset because I'd been tackling a problem from Kaggle competition a while back, and I wanted to see if I could apply what I'v learned in the course to a real-world scenario and deploy models to the cloud.
+I chose this dataset because I'd been tackling a problem on Kaggle competition a while back, and I wanted to see if I could apply what I'v learned in the course to a real-world scenario and deploy models to the cloud.
 
 ## Parkinson Severity Assessment- the problem scope
 
