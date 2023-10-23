@@ -31,7 +31,7 @@ Where to find the files for evaluation:
     ``` python
     import requests
     url = 'https://x8ee6c4ds4.execute-api.ap-southeast-2.amazonaws.com/test/predict'
-    data = {'data': [1,2,3,4]}
+    data = {'data': [1,1,1,1]}
     print(requests.post(url, json=data).json())
     ```
 
