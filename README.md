@@ -73,9 +73,9 @@ pip install -r requirements.txt
 
 The data used for this project is gathered from [Kaggle](https://www.kaggle.com/competitions/amp-parkinsons-disease-progression-prediction/data) and has the [CC BY-SA 3.0 License](https://creativecommons.org/licenses/by-sa/3.0/). Locate the button
 
-<p align="center">
-<img src="./reports/download_button.png" width="200">
-</p>
+<!-- <p align="center"> -->
+[<img src="./reports/download_button.png" width="200">](https://www.kaggle.com/competitions/amp-parkinsons-disease-progression-prediction/data)
+<!-- </p> -->
  and download the datasets. It consists of protein abundance values derived from mass spectrometry readings of cerebrospinal fluid (CSF) samples gathered from several hundred patients. Each patient contributed several samples over the course of multiple years while they also took assessments of PD severity.
 
 Download this data (including the three CSVs) and put it in to a `./data` directory. The directory should look like this:
