@@ -6,3 +6,4 @@ requests
 scikit-learn
 seaborn
 tqdm
+pandas
